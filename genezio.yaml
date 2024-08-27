@@ -1,0 +1,9 @@
+frontend:
+    path: ./
+    publish: ./build
+    scripts:
+        build: npm run build
+        deploy: npm install
+name: material-dashboard-react
+region: us-east-1
+yamlVersion: 2
